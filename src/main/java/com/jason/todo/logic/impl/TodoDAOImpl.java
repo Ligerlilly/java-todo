@@ -13,4 +13,9 @@ public class TodoDAOImpl implements TodoDAO {
     public List<String> getTodos() {
         return this.todos;
     }
+
+    public List<String> addTodo(String todo) {
+        this.todos.add(todo);
+        return this.todos;
+    }
 }

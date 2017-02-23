@@ -5,10 +5,12 @@ import com.jason.todo.logic.TodoAPI;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.*;
 
 
 /**
@@ -35,6 +37,14 @@ public class TodoResource {
     public Response getTodos() {
         return Response.ok(
                 todoAPI.getTodos()
+        ).build();
+    }
+
+    @POST
+    @Timed
+    public Response addTodo(@QueryParam("todo") String todo) {
+        return Response.ok(
+                todoAPI.addTodo(todo)
         ).build();
     }
 

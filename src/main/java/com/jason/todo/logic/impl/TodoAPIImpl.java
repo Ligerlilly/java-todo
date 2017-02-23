@@ -17,6 +17,11 @@ public class TodoAPIImpl implements TodoAPI {
         return todos;
     }
 
+    public List<String> addTodo(String todo) {
+        List<String> todos = todoDAO.addTodo(todo);
+        return todos;
+    }
+
     // ------------------------------------------------------------------------------------------------------
     // dependencies
 

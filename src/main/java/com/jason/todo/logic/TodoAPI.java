@@ -7,4 +7,5 @@ import java.util.List;
  */
 public interface TodoAPI {
     public List<String> getTodos();
+    public List<String> addTodo(String todo);
 }

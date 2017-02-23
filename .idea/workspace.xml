@@ -14,6 +14,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java" />
     </list>
     <ignored path="Todo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -98,8 +99,8 @@
       <file leaf-file-name="TodoResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="375">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +111,8 @@
       <file leaf-file-name="TodoAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -120,8 +121,8 @@
       <file leaf-file-name="TodoAPIImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +133,8 @@
       <file leaf-file-name="TodoDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,15 +191,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/TodoConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/resource/TodoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/LiveModule.java" />
         <option value="$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/0.9.2/dropwizard-core-0.9.2.jar!/io/dropwizard/Application.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/TodoApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java" />
       </list>
     </option>
   </component>
@@ -842,7 +843,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java</url>
-          <line>26</line>
+          <line>31</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -1170,42 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/TodoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1237,10 +1202,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/TodoAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/logic/impl/TodoAPIImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jason/todo/service/TodoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="375">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
