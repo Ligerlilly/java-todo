@@ -12,8 +12,8 @@ import com.jason.todo.logic.TodoAPI;
 
 @Singleton
 public class TodoAPIImpl implements TodoAPI {
-    public String[] getTodos() {
-        String[] todos = todoDAO.getTodos();
+    public List<String> getTodos() {
+        List<String> todos = todoDAO.getTodos();
         return todos;
     }
 

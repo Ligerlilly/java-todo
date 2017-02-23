@@ -7,9 +7,10 @@ import com.jason.todo.logic.TodoDAO;
  * Created by Lono on 10/27/16.
  */
 public class TodoDAOImpl implements TodoDAO {
-    String[] todos = {"a","b","c"};
+    List<String> todos = new LinkedList (Arrays.asList("a", "b", "c"));
 
-    public String[] getTodos() {
+
+    public List<String> getTodos() {
         return this.todos;
     }
 }
