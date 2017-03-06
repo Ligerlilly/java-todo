@@ -2,6 +2,7 @@ package com.jason.todo.service;
 
 import com.codahale.metrics.annotation.Timed;
 import com.jason.todo.logic.TodoAPI;
+import com.jason.todo.logic.impl.Todo;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
@@ -42,9 +43,26 @@ public class TodoResource {
 
     @POST
     @Timed
-    public Response addTodo(@QueryParam("todo") String todo) {
+    public Response addTodo(Todo input) {
         return Response.ok(
-                todoAPI.addTodo(todo)
+                todoAPI.addTodo(input.todo)
+        ).build();
+    }
+
+    @PUT
+    @Timed
+    public Response updateTodo(Todo input) {
+        return Response.ok(
+                todoAPI.updateTodo(input.index, input.todo)
+        ).build();
+    }
+
+    @DELETE
+    @Timed
+    @Path("/{todoIndex}")
+    public Response deleteTodo(@PathParam("todoIndex") Integer todoIndex) {
+        return Response.ok(
+                todoAPI.deleteTodo(todoIndex)
         ).build();
     }
 

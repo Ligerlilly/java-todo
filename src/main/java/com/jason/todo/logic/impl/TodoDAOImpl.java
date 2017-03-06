@@ -18,4 +18,15 @@ public class TodoDAOImpl implements TodoDAO {
         this.todos.add(todo);
         return this.todos;
     }
+
+    public List<String> updateTodo(Integer index, String todo) {
+        this.todos.set(index, todo);
+        List<String> todos = this.todos;
+        return todos;
+    }
+
+    public List<String> deleteTodo(Integer index) {
+        this.todos.remove((int) index);
+        return this.todos;
+    }
 }

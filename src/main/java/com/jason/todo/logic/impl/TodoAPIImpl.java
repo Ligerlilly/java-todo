@@ -22,6 +22,16 @@ public class TodoAPIImpl implements TodoAPI {
         return todos;
     }
 
+    public List<String> updateTodo(Integer index, String todo) {
+        List<String> todos = todoDAO.updateTodo(index, todo);
+        return todos;
+    }
+
+    public List<String> deleteTodo(Integer index) {
+        List<String> todos = todoDAO.deleteTodo(index);
+        return todos;
+    }
+
     // ------------------------------------------------------------------------------------------------------
     // dependencies
 
