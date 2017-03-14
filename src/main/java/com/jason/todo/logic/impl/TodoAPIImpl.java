@@ -22,12 +22,12 @@ public class TodoAPIImpl implements TodoAPI {
         return todos;
     }
 
-    public List<String> updateTodo(Integer index, String todo) {
+    public List<String> updateTodo(int index, String todo) {
         List<String> todos = todoDAO.updateTodo(index, todo);
         return todos;
     }
 
-    public List<String> deleteTodo(Integer index) {
+    public List<String> deleteTodo(int index) {
         List<String> todos = todoDAO.deleteTodo(index);
         return todos;
     }

@@ -5,5 +5,5 @@ package com.jason.todo.logic.impl;
  */
 public class Todo {
     public String todo;
-    public Integer index;
+    public int index;
 }

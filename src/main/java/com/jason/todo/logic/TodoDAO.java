@@ -8,6 +8,6 @@ import java.util.List;
 public interface TodoDAO {
     public List<String> getTodos();
     public List<String> addTodo(String todo);
-    public List<String> updateTodo(Integer index, String todo);
-    public List<String> deleteTodo(Integer index);
+    public List<String> updateTodo(int index, String todo);
+    public List<String> deleteTodo(int index);
 }
